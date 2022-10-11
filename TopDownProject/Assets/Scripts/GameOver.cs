@@ -19,7 +19,7 @@ public class GameOver : MonoBehaviour
     public void TryAgain()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Forest");
+        SceneManager.LoadScene("Level1");
     }
 
 }

@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/WinScreen.unity
+    path: Assets/Scenes/DialogueTest.unity
     guid: 82e9efc2e38b81f4ca5c933ade8b4e0f
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: f770a36fdb9361a4b949215305e30aa9
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 2ee2ec087fdbf64479d77b7393cd166b
   m_configObjects: {}
