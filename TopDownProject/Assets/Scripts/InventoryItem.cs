@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class InventoryItem : MonoBehaviour
+[Serializable]
+public class InventoryItem
 {
-    // Start is called before the first frame update
-    void Start()
+    public ItemData itemData;
+    public int stackSize;
+
+    public InventoryItem(ItemData item)
     {
-        
+        itemData = item;
+        AddToStack();
+    }
+    
+    public void AddToStack()
+    {
+        stackSize++;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RemoveFromStack()
     {
-        
+        stackSize--;
     }
 }
