@@ -5,11 +5,14 @@ using UnityEngine;
 
 public class Gem : MonoBehaviour, ICollectible
 {
-    public static event Action OnGemCollected;
+    public static event HandleGemCollected OnGemCollected;
+    public delegate void HandleGemCollected(ItemData itemData);
+    public ItemData gemData;
+    
 
     public void Collect()
     {
         Destroy(gameObject);
-        OnGemCollected?.Invoke();
+        OnGemCollected?.Invoke(gemData);
     }
 }
