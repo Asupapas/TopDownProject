@@ -15,7 +15,6 @@ public class Movement : MonoBehaviour
     void Update()
     {
         float xInput = Input.GetAxis("Horizontal");
-        Debug.Log(xInput);
         float yInput = Input.GetAxis("Vertical");
         GetComponent<Animator>().SetFloat("xInput", xInput);
         GetComponent<Animator>().SetFloat("yInput", yInput);
