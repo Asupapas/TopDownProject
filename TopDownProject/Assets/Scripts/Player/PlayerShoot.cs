@@ -18,7 +18,7 @@ public class PlayerShoot : MonoBehaviour
     {
         timer += Time.deltaTime;
         //when the mouse is clicked
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             if (timer >= shootDelay)
             {
