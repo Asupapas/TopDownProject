@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4548745705256709039}
   - component: {fileID: 8813577859881686991}
   - component: {fileID: 4522250688862876398}
+  - component: {fileID: -1931958732446939119}
   m_Layer: 0
   m_Name: Gem
   m_TagString: Untagged
@@ -115,3 +116,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemData: {fileID: 11400000, guid: 0d2dd3ee27a22cd40a44bb7b816192f1, type: 2}
+--- !u!50 &-1931958732446939119
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982551024473938021}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7

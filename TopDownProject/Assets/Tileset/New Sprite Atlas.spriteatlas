@@ -49,6 +49,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: c6c27405606b71640845edfb1a2d3f5d, type: 3}
     - {fileID: 2800000, guid: ac2268bce6106f845bc81974cbac04ba, type: 3}
     - {fileID: 2800000, guid: d2e07dbfdc18f87438ebc096276c571f, type: 3}
+    - {fileID: 2800000, guid: 97d6cf0faec160e4186b3856a360d7d2, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -119,6 +120,11 @@ SpriteAtlas:
   - {fileID: -1558048507, guid: ac2268bce6106f845bc81974cbac04ba, type: 3}
   - {fileID: -1317773539, guid: ac2268bce6106f845bc81974cbac04ba, type: 3}
   - {fileID: -228990236, guid: ac2268bce6106f845bc81974cbac04ba, type: 3}
+  - {fileID: -1587218549, guid: 97d6cf0faec160e4186b3856a360d7d2, type: 3}
+  - {fileID: -1783237801, guid: 97d6cf0faec160e4186b3856a360d7d2, type: 3}
+  - {fileID: -459812931, guid: 97d6cf0faec160e4186b3856a360d7d2, type: 3}
+  - {fileID: -1142712747, guid: 97d6cf0faec160e4186b3856a360d7d2, type: 3}
+  - {fileID: 744864735, guid: 97d6cf0faec160e4186b3856a360d7d2, type: 3}
   - {fileID: -150427340, guid: d2e07dbfdc18f87438ebc096276c571f, type: 3}
   - {fileID: -614679490, guid: d2e07dbfdc18f87438ebc096276c571f, type: 3}
   - {fileID: 1994989066, guid: d2e07dbfdc18f87438ebc096276c571f, type: 3}
@@ -205,6 +211,11 @@ SpriteAtlas:
   - bondfire2.0_11
   - bondfire2.0_12
   - bondfire2.0_13
+  - snowTileSet_3
+  - snowTileSet_2
+  - snowTileSet_1
+  - snowTileSet_0
+  - snowTileSet_4
   - mc_11
   - mc_10
   - mc_13
