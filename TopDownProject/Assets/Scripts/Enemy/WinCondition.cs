@@ -12,7 +12,7 @@ public class WinCondition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthText.text = "Boss  Health: " + health;
+        healthText.text = "Boss Health: " + health;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
