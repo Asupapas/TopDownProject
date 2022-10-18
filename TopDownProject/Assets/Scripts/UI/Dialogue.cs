@@ -59,5 +59,9 @@ public class Dialogue : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+    public void SkipText()
+    {
+        gameObject.SetActive(false);
+    }
 
 }
