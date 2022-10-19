@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8414601938302988521}
   - component: {fileID: 8414601938302988522}
   - component: {fileID: 8414601938302988523}
+  - component: {fileID: -6762162463560351721}
   m_Layer: 3
   m_Name: Sylas (Player)
   m_TagString: Player
@@ -215,6 +216,20 @@ MonoBehaviour:
   bulletLifetime: 2
   shootDelay: 0
   shootSound: {fileID: 0}
+--- !u!114 &-6762162463560351721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8414601938302988528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7895926b78b766f4d853221711fbb8b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cooldown: 7
+  DashLength: 0
 --- !u!1 &8414601938777267808
 GameObject:
   m_ObjectHideFlags: 0
