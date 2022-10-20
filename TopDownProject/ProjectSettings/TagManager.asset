@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Damage
+  - Attack
   - Bullet
   layers:
   - Default

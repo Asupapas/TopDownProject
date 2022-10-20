@@ -16,7 +16,7 @@ public class EnemyHealth : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         string otherTag = collision.gameObject.tag;
-        if (otherTag == "Bullet")
+        if (otherTag == "Attack")
         {
             health--;
             if (health <= 0)
