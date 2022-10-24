@@ -130,9 +130,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 384
+        y: 408
         width: 64
-        height: 128
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,7 +192,7 @@ TextureImporter:
       name: yeti left_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 408
         width: 64
         height: 104
@@ -235,7 +235,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 280
+        y: 279
         width: 64
         height: 104
       alignment: 0
@@ -255,10 +255,10 @@ TextureImporter:
       name: yeti left_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 281
+        x: 62
+        y: 280
         width: 64
-        height: 127
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,7 +297,7 @@ TextureImporter:
       name: yeti left_9
       rect:
         serializedVersion: 2
-        x: 192
+        x: 191
         y: 281
         width: 64
         height: 103
@@ -342,7 +342,7 @@ TextureImporter:
         x: 320
         y: 281
         width: 64
-        height: 107
+        height: 103
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
