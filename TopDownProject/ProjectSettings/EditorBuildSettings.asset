@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level4.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Level1Dialogue.unity
-    guid: 82e9efc2e38b81f4ca5c933ade8b4e0f
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: f76005ef89b6d314187e0891d1fb85c4
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: d588e20d2dbcf8543ad5a2ecc06907d1
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 2833bda9f049dd948aefc01127669ee8
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 6b7cb4e81ef49b548b16f9f85d620552
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: f770a36fdb9361a4b949215305e30aa9
@@ -21,12 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GameOver.unity
     guid: 2ee2ec087fdbf64479d77b7393cd166b
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: d588e20d2dbcf8543ad5a2ecc06907d1
-  - enabled: 1
     path: Assets/Scenes/WinScreen.unity
     guid: 32eaab4d3a5e88c48b3af98678475dbb
   - enabled: 1
-    path: Assets/Scenes/Level2.unity
-    guid: 2833bda9f049dd948aefc01127669ee8
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 23757fdc3dbf3b84295f4480d1fe1ca6
   m_configObjects: {}

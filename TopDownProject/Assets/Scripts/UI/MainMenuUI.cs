@@ -20,7 +20,7 @@ public class MainMenuUI : MonoBehaviour
     public void Play()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Level1Dialogue");
+        SceneManager.LoadScene("LevelSelect");
     }
     public void tutorial()
     {

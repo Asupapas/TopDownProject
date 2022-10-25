@@ -14257,8 +14257,8 @@ GameObject:
   - component: {fileID: 2045614389}
   - component: {fileID: 2045614388}
   - component: {fileID: 2045614387}
-  - component: {fileID: 2045614386}
   - component: {fileID: 2045614392}
+  - component: {fileID: 2045614393}
   m_Layer: 6
   m_Name: Centipede Head
   m_TagString: Damage
@@ -14266,19 +14266,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2045614386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045614384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eaa4b5646c3b574d85e66fce295be11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 20
 --- !u!61 &2045614387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14431,6 +14418,19 @@ MonoBehaviour:
   player: {fileID: 736212859}
   close: 40
   shootDelay: 4
+--- !u!114 &2045614393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045614384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad8af818a876054bab0f16b2ed352d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
 --- !u!1 &2108118805
 GameObject:
   m_ObjectHideFlags: 0
