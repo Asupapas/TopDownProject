@@ -13,5 +13,11 @@ public class AttackArea : MonoBehaviour
             EnemyHealthNew health = collider.GetComponent<EnemyHealthNew>();
             health.Damage(damage);
         }
+
+        if (collider.GetComponent<BossDefeated2>() != null)
+        {
+            BossDefeated2 health = collider.GetComponent<BossDefeated2>();
+            health.Damage(damage);
+        }
     }
 }
