@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class BossDefeated2 : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class BossDefeated2 : MonoBehaviour
     [SerializeField] public int health = 100;
 
     private int MAX_HEALTH = 100;
+    public TextMeshProUGUI healthText;
 
     private void Start()
     {
@@ -19,7 +21,7 @@ public class BossDefeated2 : MonoBehaviour
 
     void Update()
     {
-
+        healthText.text = "Health: " + health;
     }
 
     public void Damage(int amount)
