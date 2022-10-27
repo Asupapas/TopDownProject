@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     private GameObject attackArea = default;
-
+    public Animator animator;
     private bool attacking = false;
 
     private float timeToAttack = 0.25f;
@@ -41,5 +41,6 @@ public class PlayerAttack : MonoBehaviour
     {
         attacking = true;
         attackArea.SetActive(attacking);
+        animator.SetTrigger("Attack");
     }
 }
