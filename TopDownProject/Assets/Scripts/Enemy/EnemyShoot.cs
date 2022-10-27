@@ -11,6 +11,7 @@ public class EnemyShoot : MonoBehaviour
     public float close = 5.0f;
     public float shootDelay = 1.0f;
     float timer = 0;
+    public AudioClip fireball;
     // Update is called once per frame
     void Update()
     {
@@ -28,6 +29,7 @@ public class EnemyShoot : MonoBehaviour
                 GameObject bullet = Instantiate(prefab, transform.position, Quaternion.identity);
                 bullet.GetComponent<Rigidbody2D>().velocity = shootDir * Bulletspeed;
                 Destroy(bullet, bulletLifetime);
+                Camera.main.GetComponent<AudioSource>().PlayOneShot(fireball);
             }
         }
     }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    public AudioClip slash;
     private GameObject attackArea = default;
     public Animator animator;
     private bool attacking = false;
@@ -42,5 +43,6 @@ public class PlayerAttack : MonoBehaviour
         attacking = true;
         attackArea.SetActive(attacking);
         animator.SetTrigger("Attack");
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(slash);
     }
 }
