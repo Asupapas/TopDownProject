@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ec014c40cab284ab894d0052f151d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 99
+  health: 35
   healthText: {fileID: 0}
 --- !u!95 &8414601938302988521
 Animator:
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7895926b78b766f4d853221711fbb8b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cooldown: 7
+  Cooldown: 5
   DashLength: 0
 --- !u!114 &4245298566538146737
 MonoBehaviour:

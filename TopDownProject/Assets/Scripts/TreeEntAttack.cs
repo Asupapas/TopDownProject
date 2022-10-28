@@ -19,7 +19,7 @@ public class TreeEntAttack : MonoBehaviour
     private IEnumerator spawnEnemy(float interval, GameObject enemy)
     {
         yield return new WaitForSeconds(interval);
-        GameObject newEnemy = Instantiate(enemy, new Vector3(187f, 2.1f, 0f), Quaternion.identity);
+        GameObject newEnemy = Instantiate(enemy, new Vector3(219.5f, 4.3f, 0f), Quaternion.identity);
         StartCoroutine(spawnEnemy(interval, enemy));
     }
 }

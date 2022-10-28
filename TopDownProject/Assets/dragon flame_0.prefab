@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 451028409962237001}
   - component: {fileID: -6292865608116042834}
   - component: {fileID: -8247592219332582183}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: dragon flame_0
   m_TagString: Damage
   m_Icon: {fileID: 0}

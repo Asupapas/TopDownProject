@@ -21,7 +21,7 @@ public class BossDefeated2 : MonoBehaviour
 
     void Update()
     {
-        healthText.text = "Health: " + health;
+        healthText.text = "Boss Health: " + health;
     }
 
     public void Damage(int amount)
