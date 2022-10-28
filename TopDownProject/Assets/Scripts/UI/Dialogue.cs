@@ -35,6 +35,7 @@ public class Dialogue : MonoBehaviour
     }
     void StartDialogue()
     {
+        Time.timeScale = 0;
         index = 0;
         StartCoroutine(TypeLine());
     }
@@ -56,11 +57,13 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
+            Time.timeScale = 1;
             gameObject.SetActive(false);
         }
     }
     public void SkipText()
     {
+        Time.timeScale = 1;
         gameObject.SetActive(false);
     }
 

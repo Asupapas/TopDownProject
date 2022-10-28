@@ -29,7 +29,7 @@ public class PlayerAttack : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            if(timer >= timeToAttack)
+            if (timer >= timeToAttack)
             {
                 timer = 0;
                 attacking = false;
@@ -43,6 +43,10 @@ public class PlayerAttack : MonoBehaviour
         attacking = true;
         attackArea.SetActive(attacking);
         animator.SetTrigger("Attack");
-        Camera.main.GetComponent<AudioSource>().PlayOneShot(slash);
+        if (Time.timeScale > 0)
+        {
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(slash);
+
+        }
     }
 }
