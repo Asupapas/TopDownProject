@@ -287,6 +287,10 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 8183854610913192630, guid: 7cc7236a0b045e2419b6ff6ab0d5b36b, type: 3}
+      propertyPath: textSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183854610913192630, guid: 7cc7236a0b045e2419b6ff6ab0d5b36b, type: 3}
       propertyPath: lines.Array.size
       value: 3
       objectReference: {fileID: 0}
