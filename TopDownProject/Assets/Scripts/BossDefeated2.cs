@@ -46,6 +46,10 @@ public class BossDefeated2 : MonoBehaviour
                     PlayerPrefs.SetInt("LevelPassed", sceneIndex);
                     SceneManager.LoadScene("LevelSelect");
                 }
+                else
+                {
+                    SceneManager.LoadScene("LevelSelect");
+                }
             }
         }
     }
